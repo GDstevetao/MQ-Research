@@ -1,0 +1,16 @@
+RabbitMQ Report Request Pattern Design Steps
+
+Message Structure
+  Design report request message
+  Define report status updates
+  Include correlation ID for tracking
+  Publisher Components
+
+Report request API
+  Message publisher service
+  Status tracking service
+  Consumer Components
+
+Report processor service
+  Status update publisher
+  Error handling
